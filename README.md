@@ -14,7 +14,7 @@ I manage a large number of `.AppImage` files in my software collection, includin
 - Handles common errors such as missing directory or invalid file selection.
 
 ## Usage
-1. Clone the repository or download the script.
+1. Clone the repository or download the [script](AppImage.sh).
 2. Edit the `APPIMAGE_DIR` variable in the script to point to the directory containing your `.AppImage` files. (optional) Change the terminal application for selection.
 3. Run the script `bash AppImage.sh`. (optional) I use keyboard shortcut and Script Menu ([more](https://cinnamon-spices.linuxmint.com/applets/view/185))
 4. Select the .AppImage to run by entering the corresponding number.
