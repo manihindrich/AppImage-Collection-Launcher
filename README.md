@@ -1,5 +1,5 @@
 # AppImage Collection Launcher
-*Bash script to list, select, and run collection of `.AppImage` files quickly and simply. With error handling included.*
+*Bash script to list, select, and run .AppImage files from collection, simply & quickly. With error handling included.*
 
 ### Summary
 The script performs several steps, from checking the directory to executing the selected `.AppImage` file. Throughout the process, emphasis is placed on input validation and error handling to ensure smooth operation.
