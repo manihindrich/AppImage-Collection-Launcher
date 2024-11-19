@@ -7,7 +7,7 @@ APPIMAGE_DIR="/home/mani/Apps"
 
 # Dir check
 echo "=== START TROUBLESHOOTING ==="
-echo "Zadaný adresář: $APPIMAGE_DIR"
+echo "The specified directory: $APPIMAGE_DIR"
 
 if [[ -z "$APPIMAGE_DIR" ]]; then
     echo "Error: The directory is empty."
@@ -40,11 +40,11 @@ fi
 
 # Terminal window with application selection
 tilix -e bash -c "
-    echo 'V $APPIMAGE_DIR jsou tyto AppImage:'
+    echo 'In $APPIMAGE_DIR are these AppImages:'
     echo ''
     cat -n /tmp/appimage_list.txt
     echo ''
-    read -p 'Zadej číslo AppImage, který chceš spustit: ' choice
+    read -p 'Enter the number of the AppImage you want to run: ' choice
     echo \$choice > /tmp/appimage_choice.txt
 "
 
