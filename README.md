@@ -19,6 +19,9 @@ I manage a large number of `.AppImage` files in my software collection, includin
 3. Run the script `bash AppImage.sh`. (optional) I use keyboard shortcut and Script Menu ([more](https://cinnamon-spices.linuxmint.com/applets/view/185))
 4. Select the .AppImage to run by entering the corresponding number.
 
+![](choice.png)
+
+
 ## Requirements
 - A bash terminal `tilix` (or a terminal emulator that supports `-e` option) to display the file list and interact with the user.
 
